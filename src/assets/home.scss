@@ -1,0 +1,325 @@
+/* bgimg */
+.header {
+    position: relative;
+    height: 380px;
+    width: 1024px;
+    margin: 0 auto;
+    background-image: url('https://hexschool.github.io/JavaScript_HomeWork/assets/the-urban-landscape-1698285.png');
+}
+
+.header h1{
+    font-family: PingFangTC-Regular;
+    line-height: 41px;
+    padding-top: 89px;
+    font-size: 40px;
+    letter-spacing: 3.89px;
+    color: #ffffff;
+}
+
+.header .select_down{
+   position: relative;
+}
+
+.select_down img{
+    position: relative;
+    bottom: 0px;
+    right: 32px;
+ }
+
+.header select{
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    width: 452px;
+    height: 48px;
+    padding: 8px 11px 8px 9.5px;
+    margin-top: 48px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../assets/img/icons_down.png") no-repeat right center transparent;
+    background-origin: content-box;
+    background-color: rgba(255, 255, 255, 0.7);
+    outline: none;
+}
+
+.header select:hover{
+    background-color: rgba(255,255,255,0.90);
+    cursor: pointer;
+}
+
+/* hot_select */
+.hot_select{
+    position: relative;
+    margin: 0 auto;
+    height: 112px;
+    width: 800px;
+    color: rgba (0,0,0,20);
+    background: #FFFFFF;
+    box-shadow:  0 1px 3px 0;
+    border-radius: 5px;
+    bottom: 28px;
+}
+
+.hot_select h3{
+    font-family: AppleSystemUIFont;
+    margin: 20px 0px 20px 26px;
+    font-size: 18px;
+    color: #000000;
+}
+.hot_select .row{
+    margin: 0px 20px ;
+}
+
+.hot_select .col-3{
+    font-family: PingFangTC-Regular;
+    height: 42px;
+    width: 130px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.hot_select .col-3:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.hot_zone1{
+    background: #8A82CC;
+}
+
+.hot_zone2{
+    background: #FFA782;
+}
+
+.hot_zone3{
+    background: #F5D005;
+}
+
+.hot_zone4{
+    background: #559AC8;
+}
+
+/* line */
+.line{
+    position: relative;
+    width: 944px;
+    height: 1px;
+    border-bottom: 2px dashed #559AC8;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+
+.line .circle{
+    position: relative;
+    height: 24px;
+    width: 24px;
+    border: 2px solid #559AC8;
+    margin: 0 auto;
+    border-radius: 999em;
+    bottom: 9px;
+    padding-top: 1px;
+}
+
+.circle img{
+    margin-left: 1px;
+}
+
+/*  */
+
+.zone_title{
+    height: 36px;
+    width: 109px;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 24px;
+}
+/* 主要資訊 */
+
+.main{
+    width: 944px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+
+.main .attractions{
+    height: 273px;
+    margin-bottom: 36px;
+    /* background-color: brown; */
+    box-shadow: 0 1px 3px 0 ;
+    overflow: hidden;
+}
+
+.ZoneImg{
+    position: relative;
+    height: 155px;
+    background-size: cover;
+    background-clip: initial;
+    background-repeat: no-repeat;
+    background-position:  50%;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+     transition: all 0.5s;
+}
+
+.ZoneImg:hover, .ZoneImg:focus{
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ZoneImg .ZoneName{
+    position: absolute;
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    color: #FFFFFF;
+    left: 22px;
+    bottom: 14px;
+}
+
+.ZoneImg .InZone{
+    position: absolute;
+    font-family: PingFangTC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    right: 24px;
+    bottom: 11px;
+}
+
+.time_group{
+    position: relative;
+    margin-left: 23px;
+    margin-top: 15px;
+}
+
+.time_img{
+    margin-right: 9px;
+}
+
+.time_font{
+    position: absolute;
+    display: inline;
+}
+
+.tag_group{
+    position: relative;
+    margin-left: 23px;
+    margin-top: 13px;
+}
+
+.tag_img{
+    margin-right: 7px;
+}
+
+.tag_font{
+    position: absolute;
+    display: inline;
+}
+
+.phone_group{
+    position: relative;
+    margin-left: 26px;
+    margin-top: 13px;
+}
+
+.phone_img{
+    margin-right: 12px;
+}
+
+.phone_font{
+    position: absolute;
+    display: inline;
+}
+
+/* page */
+
+.page{
+    height: 17px;
+    width: 100%;
+    margin: 0px auto 16px auto;
+}
+
+.button_group{
+    font-family: SFNSText;
+    margin: 0 auto;
+    font-size: 19px;
+    color: #4A4A4A;
+}
+
+.button_group li{
+    display: inline;
+    margin: 0px 4px 0px 4px;
+}
+
+.button_group li a{
+    font-family: SFNSText;
+    text-decoration: none;
+}
+
+.button_group li a:hover{
+     color: #000000;
+}
+
+/* google map */
+
+#map{
+    height: 400px;
+    width: 996px;
+    margin: 0 auto;
+}
+
+/* footer */
+.footer{
+    max-width: auto;
+    height: 90px;
+    background: #559AC8;
+    margin: 0 auto;
+    margin-top: 44px;
+    padding-top: 24px;
+}
+
+.footer .name{
+    font-family: AppleSystemUIFont;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.footer .source{
+    margin-bottom: 15px;
+}
+
+.footer .source a{
+    text-decoration: none;
+    font-family: AppleSystemUIFont;
+    font-size: 14px;
+    color: #FFD366;
+}
+
+.footer .source a:hover{
+    text-decoration: none;
+    color: rgba(255, 211, 102, 0.7)
+}
+
+/* backtop */
+.gotop {
+    position: fixed;
+    float: right;
+    margin-top: 20px;
+    right: 30px;
+    bottom: 20px;
+    padding: 4px;
+    cursor: pointer;
+    color: lightgrey;
+    z-index: 999;
+}
+
+.gotop:hover {
+    color: rgb(97, 89, 89);
+}
