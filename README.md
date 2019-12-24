@@ -1,21 +1,16 @@
 # kaohsiung_tourism
 
-> A Vue.js project
+> A Vue.js project kaohsiung travel information
 
-## Build Setup
+# 高雄觀光旅遊網
+[前台頁面](https://sckai.github.io/sckai-vue-kaohsiung_tourism/dist/index.html#/home)
 
 ``` bash
-# install dependencies
-npm install
+# use npm Plugin
+npm install google --save
+npm install vue2-google-maps --save
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
